@@ -2,7 +2,10 @@
 #include<time.h>
 int main{
 int coin[3], heads=0, tails=0, h=0, t=0;
-
+char name[10];
+printf("Who are you?\n<");
+scanf("%s",name);
+printf("Hello,%s!",name);
 print("Tosshing a coin...\n");
 srand(time(NULL));
 
